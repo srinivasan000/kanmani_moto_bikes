@@ -5,7 +5,8 @@ const Header = () => {
     <header className="header">
       <nav className="nav">
         <div className="logo">
-          <img src="assets/img/logo/logo.png" width="192px" alt="img" />
+         <img src="assets/img/logo.png" width="192px" alt="img" className="img1"/>
+         <img src="assets/img/logo/logo.png" width="192px" alt="img" className="img2"/>
         </div>
         <ul className={"nav_links "+ (menu && "show")} >
           <li>
