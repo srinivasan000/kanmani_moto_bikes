@@ -4,7 +4,7 @@ import Card from './com/Card'
 function About() {
   return (
     <secction className="about-section">
-        <Title title="ABOUT US"/>
+        <Title title="ABOUT US" img="assets/img/logo-dark.png"/>
         <div className="flex">
             <Card img="assets/img/gallery/gallery1.jpg"  text="kanmani motobikes"/>
             <div className="about-content">

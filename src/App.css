@@ -391,7 +391,7 @@ height:500px;
       /* register form */
       .register-section{
         background: #050596;
-        width:80%;
+        width:90%;
         margin: auto;
         padding: 20px;
         margin-top: 20px;
@@ -405,3 +405,61 @@ height:500px;
         font-weight: bolder;
         text-align: center;
       } 
+.register-section form{
+  padding: 10px;
+}
+.input-name,.input-email,.input-number{
+  width: 40%;
+  height:50px;
+
+}
+.services-checkbox{
+  width: 40%;
+}
+
+select,option{
+  width: 40%;
+  height: 50px;
+}
+
+
+.register-section button{
+  text-align: center;
+  padding: 20px 30px;
+  background-color: #050596;
+  border: none;
+  color: #fff;
+  position: relative;
+  border: 1px solid #fff;
+}
+
+.register-section button:hover{
+background: orangered;
+}
+.register-section button::after{
+width: 20px;
+height: 20px;
+content: "";
+background: #000;
+position: absolute;
+right: -10px;
+}
+
+@media screen and (max-width:700px) {
+  select,option,.services-checkbox,.input-name,.input-email,.input-number{
+width:100%;
+  }
+}
+
+/* footer */
+
+
+
+
+.footer-end{
+  padding: 20px;
+  background: #050596;
+  text-align: center;
+  color: #fff;
+  border-top:1px solid #777 ;
+}

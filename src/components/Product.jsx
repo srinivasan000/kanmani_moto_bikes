@@ -5,7 +5,7 @@ import ProductCard from './com/ProductCard'
 function Product() {
   return (
     <secction className="product-section">
-        <Title title="CHOOSE A MOTOBIKES"/>
+        <Title title="CHOOSE A MOTOBIKES" img="assets/img/logo-dark.png"/>
         <div className="flex">
             <ProductCard img="assets/img/product/product1.jpg"/>
             <ProductCard img="assets/img/product/product2.jpg"/>

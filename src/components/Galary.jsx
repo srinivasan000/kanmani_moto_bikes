@@ -4,7 +4,7 @@ import Card from './com/Card';
 function Galary() {
   return (
     <secction className="galary-section">
-        <Title title="GALLERY"/>
+        <Title title="GALLERY" img="assets/img/logo-dark.png"/>
         <div className="flex">
         <img src="assets/img/gallery/gallery1.jpg"/>
         <img src="assets/img/gallery/gallery2.jpg"/>
