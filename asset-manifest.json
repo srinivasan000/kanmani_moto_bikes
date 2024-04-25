@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kanmani_moto_bikes/static/css/main.cc1d8302.css",
+    "main.js": "/kanmani_moto_bikes/static/js/main.310c5c5a.js",
+    "index.html": "/kanmani_moto_bikes/index.html",
+    "main.cc1d8302.css.map": "/kanmani_moto_bikes/static/css/main.cc1d8302.css.map",
+    "main.310c5c5a.js.map": "/kanmani_moto_bikes/static/js/main.310c5c5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc1d8302.css",
+    "static/js/main.310c5c5a.js"
+  ]
+}
