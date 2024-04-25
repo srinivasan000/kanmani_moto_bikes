@@ -2,8 +2,6 @@ import React from 'react'
 import Header from './components/Header/Header'
 import Home from './components/Home';
 import "./App.css";
-import SliderSection from './components/SlidderSection';
-import Review from './components/Category';
 import About from './components/About';
 import Product from './components/Product';
 import Info from './components/Info';

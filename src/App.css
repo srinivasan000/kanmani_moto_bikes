@@ -353,3 +353,55 @@ height:500px;
   .galary-section .flex img{
     width:300px;
   }
+  /* feedback */
+
+  /* feeddback */
+  .feedback-section{
+    margin-top: 60px;
+        width: 100%;
+        padding: 20px;
+        }
+      .feedback-section .feedback-img img{
+    width:350px;
+    height:500px;
+      }
+      .feedback-section .feedback-img{
+        width:40%;  
+        overflow: hidden;
+      }
+      .feedback-section .feedback-content{
+        background: url(https://kanmanimotobikes.com/public/assets/img/decor-logo.svg) no-repeat top right ;
+        width: 50%;
+      }
+      .feedback-section .slide img{
+        width:60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      @media screen and (max-width:700px) {
+        .feedback-section .feedback-img{
+          width:100%;
+        }
+        .feedback-section .feedback-content{
+          width: 100%;
+        }
+      }
+    
+      /* register form */
+      .register-section{
+        background: #050596;
+        width:80%;
+        margin: auto;
+        padding: 20px;
+        margin-top: 20px;
+        color: #fff;
+      }
+      .register-section h2{
+        font-size: 1rem;
+      }
+      .register-section .bold{
+        font-size: 2rem;
+        font-weight: bolder;
+        text-align: center;
+      } 
