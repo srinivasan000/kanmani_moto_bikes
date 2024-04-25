@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 
 function Home() {
   const myStyle = [
@@ -26,7 +26,6 @@ function Home() {
   }
     return (
     <section className="hero-section" style={myStyle[count]}>
-      {count}
       <div className="hero-card">
         <h2><span>connect, Explore,</span> <br/>Thrive Join the Kanmani Moto Community</h2>
         <p>

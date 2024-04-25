@@ -295,7 +295,7 @@ right: -10px;
 }
   
   .product-section-card:hover{
-    box-shadow: 3px 3px 3px #eee;
+    box-shadow: 3px 3px 3px #aaa;
 
   }
   .product-section-card:hover img{

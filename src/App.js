@@ -24,9 +24,9 @@ const App = () => {
       <Product/>
       <Info/>
       <Galary/>
-      <Map/>
-      <Rigister/>
       <Feedback/>
+      <Rigister/>
+      <Map/>
     </main>
     <Footer/>
     </>
